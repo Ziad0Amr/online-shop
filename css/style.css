@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    min-height: 50px;
+}
+
+.navbar-collapse{
+    text-align: end;
+    cursor: pointer;
+    flex-grow: 0 !important;
+    position: relative;
+}
+
+.link{
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 20px !important;
+    display: block;
+}
+
+.namee{
+    margin-left:auto;
+    color: #007bff !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.carticons{
+    font-size: 25px;
+    margin: auto 0px;
+    color: #007bff;
+    position: relative;
+}
+
+.numofitem{
+    position: absolute;
+    bottom: -11px;
+    right: 80px;
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+
+.arrow{
+    margin: auto 5px;
+    font-size: 25px;
+    color: rgb(138, 137, 137) !important;
+}
+
+.itemscart{
+    min-height: 100px;
+    width: 300px;
+    background-color: #ddd;
+    position: absolute;
+    top: 53px;
+    z-index: 5;
+    right: 0px;
+    border-radius: 5px;
+    display: none;
+}
+
+.itemscart .itemcart{
+    width: 92%;
+    background-color: white;
+    height: 50px;
+    margin: 15px auto 0px;
+    border-radius: 5px;
+    line-height: 50px;
+    padding: 0px 10px;
+    font-weight: bold;
+    color: #007bff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemscart .itemcart .mathmatics {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.itemscart .itemcart .mathmatics #num{
+    margin-right: 5px;
+}
+
+.itemscart .itemcart .math{
+    font-size: 14px;
+    padding: 5px;
+    line-height: 40px;
+}
+
+.itemscart .itemcart .math:hover{
+    opacity: 0.7;
+}
+
+.itemscart .viewproduct{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: #007bff;
+    font-size: 19px;
+    margin: 10px 0px 5px!important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.itemscart .viewproduct:hover{
+    color: #0062ca;
+    text-decoration: underline;
+}
+
+.li{
+    position: relative;
+    padding-top: 10px;
+}
+
+@media (max-width: 992px){
+    .li{
+        order: 2 !important;
+    }
+    .container{
+        padding-top: 10px !important;
+    }
+    .logoutt{
+        margin: 50px 0 20px 0;
+        order: 1 !important;
+    }
+}
+
+.heartandbtn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heart{
+    font-size: 28px;
+    line-height: 36px;
+    color: #ddd;
+}
+
+.searchbar{
+    display: flex;
+    width: 90%;
+    margin: 15px auto !important;
+}
+
+.searchbar .search{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+}
+/*  */
+.content{
+    display: flex;
+    width: 75%;
+    margin: 0 auto !important;
+    flex-wrap: wrap;
+}
+
+.content .card{
+    padding: 0 13px;
+    transition: 0.5s;
+}
+
+.content .card:hover{
+    border: 1px solid #007bff;
+    transform: translateY(-5px);
+}
+
+.card-body{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-body h5{
+    margin-bottom: 15px;
+}
+
+.card-body p{
+    margin-bottom: 15px;
+}
+
+.card .btn{
+    border: none!important;
+}
+
+.card .btn:focus{
+    box-shadow: none!important;
+    border: none!important;
+    outline: none!important;
+}

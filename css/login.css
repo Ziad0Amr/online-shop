@@ -1,0 +1,10 @@
+.question{
+    margin-top: 5px;
+    font-size: 15px;
+    color: #6c757d;
+    font-weight: 500;
+}
+
+.question a{
+    text-decoration: none;
+}
